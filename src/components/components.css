@@ -8,3 +8,118 @@
     --very-pale-orange: hsl(33, 100%, 98%);
 }
 
+.my-balance {
+    color: white;
+    background-color: var(--soft-red);
+    padding: 2px 15px 2px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 40vw; */
+}
+
+.spending {
+    background-color: var(--very-pale-orange);
+    border-radius: 15px;
+    padding: 2px 15px 2px 15px;
+    margin-top: 20px;
+}
+
+hr {
+    border-top: 1px solid var(--medium-brown);
+}
+
+.graph {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.data p {
+    color: var(--medium-brown);
+    font-size: small;
+    margin-top: -1px;
+}
+
+#rect1 {
+    width: 40px;
+    height: 50px;
+    background-color: var(--soft-red);
+    border-radius: 5px;
+}
+
+#rect2 {
+    width: 40px;
+    height: 100px;
+    background-color: var(--soft-red);
+    border-radius: 5px;
+}
+#rect3 {
+    width: 40px;
+    height: 140px;
+    background-color: var(--cyan);
+    border-radius: 5px;
+}
+#rect4 {
+    width: 40px;
+    height: 85px;
+    background-color: var(--soft-red);
+    border-radius: 5px;
+}
+#rect5 {
+    width: 40px;
+    height: 70px;
+    background-color: var(--soft-red);
+    border-radius: 5px;
+}
+#rect6 {
+    width: 40px;
+    height: 115px;
+    background-color: var(--soft-red);
+    border-radius: 5px;
+}
+#rect7 {
+    width: 40px;
+    height: 70px;
+    background-color: var(--soft-red);
+    border-radius: 5px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 15px 0px 15px;
+}
+
+.total p {
+    color: var(--medium-brown);
+    font-size: small;
+}
+
+.total p strong {
+    color: black;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+.right p {
+    margin-bottom: -10px;
+}
+
+.left p {
+    margin-bottom: -23px;
+}
