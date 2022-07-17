@@ -25,13 +25,13 @@
   width: 25vw;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1700px) {
   .App {
-    max-width: 99vw;
+    width: 99vw;
   }
 
   .main-container {
-    width: 375px;
+    width: 99vw;
     margin: 0px 5vw 0px 5vw;
   }
 

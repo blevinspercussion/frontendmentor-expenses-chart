@@ -115,7 +115,7 @@ hr {
     margin-bottom: -23px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1700px) {
     .my-balance {
         width: 90vw;
     }
